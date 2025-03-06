@@ -10,9 +10,9 @@ const ComingSoon = () => {
     <div className="App">
       <div className="container">
         <h1>
-          Website
+          This page will be
           <br />
-          Coming Soon
+          Available Soon
         </h1>
         <Timer />
         <Optin />

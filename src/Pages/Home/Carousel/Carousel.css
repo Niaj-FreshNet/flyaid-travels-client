@@ -1,0 +1,40 @@
+.carousel .slide img {
+    height: 90vh; /* Make the image cover the full viewport height */
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel .slide img {
+        height: 80vh; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel .slide img {
+        height: 90vh; /* Further adjust for very small screens */
+    }
+}
+
+.carousel .control-arrow {
+    color: #fff; /* Adjust arrow color if needed */
+    background: rgba(0, 0, 0, 0.5); /* Add semi-transparent background */
+    /* border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: ;
+    justify-content: center; */
+}
+
+.carousel .control-arrow:hover {
+    background: rgba(0, 0, 0, 0.7); /* Add background on hover for better visibility */
+}
+
+.carousel .control-arrow:before {
+    font-size: 20px; /* Adjust arrow icon size */
+}
+
+.carousel .carousel-status {
+    display: none; /* Hide the status indicator for a cleaner look */
+}
